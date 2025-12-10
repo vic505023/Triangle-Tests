@@ -24,5 +24,4 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
       - name: run unit tests
-        run:
-          pyrhon -m unittest
+        run: python -m unittest tests.py
